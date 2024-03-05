@@ -312,7 +312,7 @@ CUSTOM STYLES
 } */
 
 #personal{
-    margin-left: 6%;
+    margin-left: 25%;
 }
 
 .footer-link a {
@@ -416,7 +416,7 @@ input {
 
 .form-control {
     overflow: hidden;
-    width: 95%;
+    width: 65%;
     padding: 13px;
     font-weight: medium !important;
     font-size: 18px;
@@ -1168,7 +1168,12 @@ input {
 }
 
 
- 
+@media (min-width: 1500px)  {
+#nextBtn{
+    /* width: 8vw !important; */
+}
+    
+}
 
 @media (min-width: 1200px) and (max-width: 1280px) {
     .back-to-top {
