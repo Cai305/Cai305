@@ -312,7 +312,7 @@ CUSTOM STYLES
 } */
 
 #personal{
-    margin-left: 100px;
+    margin-left: 6%;
 }
 
 .footer-link a {
@@ -416,7 +416,7 @@ input {
 
 .form-control {
     overflow: hidden;
-    width: 270px;
+    width: 95%;
     padding: 13px;
     font-weight: medium !important;
     font-size: 18px;
@@ -586,7 +586,7 @@ input {
     justify-content: center;
     text-align: center;
     padding-top: 5px;
-    max-width: 30%;
+    max-width: 40%;
     text-decoration: underline !important;
     margin: 0 auto;
 }
@@ -845,6 +845,7 @@ input {
 .tab {
     display: none;
     transition: height 0.5s, width 0.5s;
+    margin-top: 50px;
 }
 
 .filter-buttons{
@@ -1123,10 +1124,8 @@ input {
 
 .back-to-top {
     position: absolute;
-    top: 18%;
-    vertical-align: middle;
-    font-weight: bold;
-    color: #fff;
+    top: 10px;
+    z-index: 20;
 }
 
 .btn-emloye-details {
@@ -1176,6 +1175,7 @@ input {
         left: 12%;
         top: 10%;
     }
+    
 }
 
 
@@ -1233,6 +1233,9 @@ input {
         left: 0;
     }
 
+    #howmuchvalue {
+        height: 3vh !important;
+    }
     .active-step {
         text-align: left;
         font-size: 18px;
@@ -1348,7 +1351,7 @@ input {
     }
     .form-control {
         overflow: hidden;
-        width: 180px;
+        width: 95%;
     }
     .btn-primary {
         font-size: 12px;
@@ -1363,12 +1366,13 @@ input {
     .check-mark-done-income {
         padding-left: 20% !important;
     }
+ 
 }
 
 @media (min-width: 429px) and (max-width: 926px) {
     .form-control {
         overflow: hidden;
-        width: 441px;
+        width: 100%;;
     }
     .check-mark-done-emp {
         padding-left: 20% !important;
@@ -1381,8 +1385,37 @@ input {
         margin-left: 14px;
     }
     #nextBtn {
-        margin-left: 5px !important;
+        margin-left: 3px !important;
+        width: 74vw !important;
     }
+    .form-info {
+        height: 78vh;
+        border-top-left-radius: 21px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 21px;
+    }
+    .step1ContentContainer {
+        min-height: 987px;
+    }
+    .lgn-btn{
+        left: 0px !important;
+        top: 5px;
+    }
+    .two-btn{
+        margin-top: 0px !important;
+    }
+    .s-content-height{
+        min-height: 950px !important;
+    }
+    #btnLogintoApply {
+        left: 2px;
+        top: 4px;
+        width: 192px;
+    }
+    #howmuchvalue {
+        height: 3vh !important;
+    }
+    
 }
 @media (min-width: 390px) and (max-width: 415px) {
     .income-detail-content {
@@ -1401,6 +1434,9 @@ input {
     }
 }
     @media (min-width: 600px) and (max-width: 1180px) {
+        .form-control {
+            width: 274px;
+        }
         .back-to-top {
             left: 4%;
             /*12*/
@@ -1408,7 +1444,7 @@ input {
         }
 
         .btn-primary {
-            padding-left: 4%;
+            padding-left: 10%;
             font-size: 13px;
         }
 
@@ -1437,6 +1473,27 @@ input {
         .modal-content {
             width: 600px;
             border-radius: 2.3rem;
+        }
+        #btnLogintoApply {
+            left: 2px !important;
+            top: 4px !important;
+            width: 270px !important;
+        }
+        #nextBtn{
+            margin-left: 0px !important;
+            width: 100% !important;
+        }
+        .back-step-btn {
+            left:2px !important;
+            width: 272px;
+        }
+        .s2-min-height{
+            min-height: 940px !important;
+        }
+        .s-content-height{
+            .card {
+                height: 10vh !important;
+            }
         }
         
     }
